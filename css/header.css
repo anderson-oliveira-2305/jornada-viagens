@@ -1,12 +1,21 @@
 header{
-    width: 100%;
-    height: 188px;
     background-color: var(--background-tertiary-color);
+    display: flex; /*Organizar automaticamente na tela os icones*/
+    flex-direction: row; /*Configurando posição dos elementos do header*/
+    justify-content: space-between; /*Configurando posição dos elementos do header*/
+    padding: 38px 48px;
 }
 
 .logo {
     display: inline-block;
     width: 68px;
-    height: 64px;   
-    margin: 37px 0 0 48px;
+    height: 64px;
+}
+
+.navigation-menu{
+    margin-top: 24px;
+}
+
+nav{
+    display: none;
 }
