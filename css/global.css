@@ -44,14 +44,14 @@ body {
   color: var(--text-primary-color);
 }
 
-.section-title h2{
+.section-title h2 {
   font-weight: var(--title-weight);
   font-size: 28px;
   margin: 0;
   text-align: center;
 }
 
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -59,9 +59,8 @@ body {
   margin: 16px auto 32px auto;
 }
 
- @media screen and (min-width: 768px) {
-  .section-title h2{
+@media screen and (min-width: 768px) {
+  .section-title h2 {
     font-size: 32px;
   }
-  
- }
+}
