@@ -1,4 +1,4 @@
-.offers{
+.offers {
   margin-bottom: 104px;
 }
 
@@ -21,10 +21,6 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -74,17 +70,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .offers-cards.card {
+  header{
+    padding: 38px 50px;
+  }
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
 
   .offers-cards .card header h3 {
-    font-size: 48px;
+    font-size: 38px;
+    height: 70px;
   }
 
   .offers-cards .card header span {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 
