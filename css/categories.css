@@ -27,7 +27,7 @@
   padding-top: 50px;
 }
 
-.categories-cards .card.single-line.transfer img {
+.categories-cards .card .single-line .transfer img {
   margin: 10px 0 20px;
 }
 
@@ -53,4 +53,6 @@
   .categories-cards .card {
     width: 280px;
   }
+
+
 }
