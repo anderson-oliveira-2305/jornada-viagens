@@ -1,8 +1,9 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex; /*Organizar automaticamente na tela os icones*/
   flex-direction: row; /*Configurando posição dos elementos do header*/
   justify-content: space-between; /*Configurando posição dos elementos do header*/
+  align-items: flex-start;
   padding: 38px 48px;
   position: relative;
 }
